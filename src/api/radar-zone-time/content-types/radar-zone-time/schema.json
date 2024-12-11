@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "radar_zone_times",
+  "info": {
+    "singularName": "radar-zone-time",
+    "pluralName": "radar-zone-times",
+    "displayName": "Radar-zone-times",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "id_radar": {
+      "type": "biginteger"
+    },
+    "Time_spent": {
+      "type": "decimal"
+    }
+  }
+}
